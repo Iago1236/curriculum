@@ -1,0 +1,71 @@
+body {
+    margin: 30px;
+    border: 1px solid lightgrey;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main-content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+#sidebar {
+    flex: 1;
+    background-color: lightblue;
+    padding: 9.5px;
+    border: 1px solid #ffffff;
+    align-self: flex-start; /* Alinha a barra lateral ao início do container */
+    margin-top: 305px; /* Adiciona uma margem superior para alinhar com "OBJECTIVO" */
+    min-height: 1034px; /* Define uma altura mínima para o fundo azul */
+}
+
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem {
+    margin-right: 20px;
+}
+
+.titulo-container {
+    text-align: center;
+}
+
+#titulo {
+    color: rgb(60, 56, 132);
+    font-size: 50px;
+    font-family: Copperplate;
+}
+
+#titulo2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+#informacoes {
+    background-color: rgb(60, 56, 132);
+    border: solid black 0.5px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div1 {
+    margin: 10px;
+    border: solid black 0.5px;
+    font-size: 20px;
+}
+
+.ponto {
+    margin: 20px;
+}
